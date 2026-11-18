@@ -1,0 +1,82 @@
+body{
+  font-family: Arial, sans-serif;
+}
+
+.logo{
+  font-weight: bold;
+  font-size: 28px;
+  color: #e85d8a;
+}
+
+
+.carousel-caption{
+  top: 50%;
+  bottom: auto;
+  transform: translateY(-50%);
+  color: black;
+}
+.izquierda{
+  left: 8%;
+  right: auto;
+  width: 40%;
+  text-align: left;
+}
+.centro{
+  left: 33%;
+  right: 33%;
+}
+
+.categorias{
+  border-bottom: 1px solid #ddd;
+}
+.categorias .nav-link{
+  color: black;
+  font-weight: bold;
+}
+
+
+.rosa{ background-color: #f9b7cc; }
+.amarillo{ background-color: #ffd96b; }
+.celeste{ background-color: #a9d8ea; }
+.verde{ background-color: #4cc9a4; }
+.fondo{ background-color: #fdf6e3; }
+
+.precio{
+  font-size: 22px;
+  font-weight: bold;
+  color: #e85d8a;
+}
+
+.card{
+  border: none;
+  box-shadow: 0 2px 8px gray;
+}
+
+.redes a{
+  color: white;
+  font-size: 30px;
+  margin: 5px;
+}
+
+
+@media (max-width: 991px){
+  .carousel-caption h1{
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 767px){
+  .carousel-caption h1{
+    font-size: 20px;
+  }
+  .izquierda, .centro{
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    top: auto;
+    bottom: 10px;
+    transform: none;
+    text-align: center;
+    background-color: rgba(255,255,255,0.7);
+  }
+}
